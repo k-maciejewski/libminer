@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/k-maciejewski/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/k-maciejewski/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to help you understand libraries better
@@ -26,10 +28,8 @@ This is a basic example which shows you how to solve a common problem:
 library(libminer)
 
 lib_summary()
-#>                                                                                        Library
-#> 1                         /Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library
-#> 2 /private/var/folders/9b/lrhm9r7d5d3cs8p1g2rtx4t40000gn/T/Rtmp2z2r8E/temp_libpath2b7d44b40f45
+#>                                                                Library
+#> 1 /Library/Frameworks/R.framework/Versions/4.1-arm64/Resources/library
 #>   n_packages
 #> 1        418
-#> 2          1
 ```
